@@ -214,6 +214,9 @@ img {
   border-radius: 2rem;
   align-self: flex-start;
   margin-top: 3rem;
+  border: white solid;
+  box-shadow: 0px 0px 10px white,
+  0px 0px 10px white inset;
 }
 
 .perfil__data{
@@ -282,6 +285,9 @@ img {
   justify-self: center;
   border-radius: 2rem;
   align-self: center;
+  border: white solid;
+  box-shadow: 0px 0px 10px white,
+  0px 0px 10px white inset;
 }
 
 .info__description{
@@ -325,7 +331,7 @@ img {
 }
 
 .about__image{
-  background: transparent;
+  background: var(--conic-gradient);
   height: 180px;
   border-radius: 2rem;
   display: grid;
@@ -333,12 +339,15 @@ img {
 }
 
 .about__img{
-  width: 400px;
+  width: 100px;
   justify-self: center;
   margin-top: 5rem;
   border-radius: 1rem;
-  align-self: flex-start;
+  align-self: center;
   transform: translateY(-2.5rem);
+  border: white solid;
+  box-shadow: 0px 0px 10px white,
+  0px 0px 10px white inset;
 }
 
 .about__note{
