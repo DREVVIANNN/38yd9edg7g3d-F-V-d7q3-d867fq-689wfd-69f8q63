@@ -116,7 +116,7 @@ img {
 }
 
 .ri-verified-badge-fill{
-  color: #1DA1F2;
+  color: #f21d1d;
   margin-left: 5px;
 }
 
@@ -125,6 +125,24 @@ img {
   width: 3rem;
   justify-self: center;
   display: grid;
+}
+
+.cimage2{
+  position: relative;
+  justify-self: center;
+  width: 3rem;
+  align-items: center;
+  bottom: 48px;
+  right: 5rem;
+}
+
+.cimage3{
+  position: relative;
+  justify-self: center;
+  width: 3rem;
+  align-items: center;
+  bottom: 6rem;
+  left: 5rem;
 }
 
 .aeroai{
@@ -454,6 +472,21 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.projects__skills2{
+  width: max-content;
+  height: 34px;
+  background-color: var(--white-color);
+  padding-inline: .75rem;
+  display: flex;
+  align-items: center;
+  column-gap: .75rem;
+  border-radius: 4rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 16px #24f21d,
+  0px 0px 16px white inset;
+  border: #24f21d solid;
+}
+
 .projects__button{
   color: var(--white-color);
   display: inline-flex;
@@ -478,6 +511,18 @@ img {
   transform: scale(1.2);
 }
 
+/* Sakura petals */
+.sakura-petals{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10000;
+  pointer-events: none;
+}
+
 /*=============== SERVICES ===============*/
 .services__card{
   background-color: var(--container-color);
@@ -494,6 +539,7 @@ img {
 .services__icon i{
   font-size: 2.5rem;
   position: relative;
+  color: #1c6bb4;
   z-index: var(--z-tooltip);
 }
 
