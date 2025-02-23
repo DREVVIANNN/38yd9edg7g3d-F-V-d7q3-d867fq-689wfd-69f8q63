@@ -75,9 +75,13 @@ sr.reveal(`.skills`, {origin: 'left', delay: 1000})
 sr.reveal(`.about`, {origin: 'right', delay: 1200})
 sr.reveal(`.projects__card, .services__card, .experience__card`, {interval: 100})
 
-
+/* send information for verified player or not avaible link */
 function fun(){
     alert("discord not avaible");
+}
+
+function verified(){
+    alert("This user verified✅")
 }
 
 // Get the audio element
@@ -119,3 +123,6 @@ window.addEventListener("load", () => {
         console.warn("Autoplay might be blocked by the browser:", error);
     });
 });
+
+/*=============== SAKURA ANIMATION ===============*/
+const sakura = new Sakura('.sakura-petals')
