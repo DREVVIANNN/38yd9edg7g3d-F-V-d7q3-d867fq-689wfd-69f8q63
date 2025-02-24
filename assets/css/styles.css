@@ -149,6 +149,29 @@ img {
   color: #e3035d;
 }
 
+.aerodiscord{
+  color: black;
+  width: max-content;
+  font-size: 1em;
+  font-family: Arial;
+  font-weight: var(--font-semi-bold);
+  text-decoration: none;
+  background-color: white;
+  padding: 8px 8px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white, 0  0 20px white inset;
+  margin-left: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aerodiscord:hover{
+  color: white;
+  background-color: lightblue;
+  box-shadow: 0 0 10px lightblue;
+  transition: background-color .4s, box-shadow .4s;
+}
+
 *{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -258,7 +281,7 @@ box-sizing: border-box;
   border-radius: 2rem;
   align-self: flex-start;
   margin-top: 3rem;
-  border: white solid;
+  border: 5px solid;
   box-shadow: 0px 0px 10px white,
   0px 0px 10px white inset;
 }
@@ -803,6 +826,7 @@ box-sizing: border-box;
     grid-template-columns: 380px;
     justify-content: center;
   }
+
 }
 
 @media screen and (min-width: 768px){
