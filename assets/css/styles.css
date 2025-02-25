@@ -150,8 +150,9 @@ img {
 }
 
 .aerodiscord{
+  position: relative;
   color: black;
-  width: max-content;
+  width: 400px;
   font-size: 1em;
   font-family: Arial;
   font-weight: var(--font-semi-bold);
@@ -159,10 +160,15 @@ img {
   background-color: white;
   padding: 8px 8px 10px;
   border-radius: 10px;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  display: grid;
   box-shadow: 0 0 20px white, 0  0 20px white inset;
   margin-left: 2px;
   text-align: center;
   cursor: pointer;
+  transition: background-color .4s, box-shadow .4s;
 }
 
 .aerodiscord:hover{
@@ -170,6 +176,10 @@ img {
   background-color: lightblue;
   box-shadow: 0 0 10px lightblue;
   transition: background-color .4s, box-shadow .4s;
+}
+
+.discord{
+  text-align: center;
 }
 
 *{
@@ -827,6 +837,10 @@ box-sizing: border-box;
     justify-content: center;
   }
 
+  .aerodiscord{
+    width: 300px;
+  }
+
 }
 
 @media screen and (min-width: 768px){
@@ -992,6 +1006,10 @@ box-sizing: border-box;
   }
   .footer__copy{
     margin-top: 7rem;
+  }
+
+  .aerodiscord{
+    width: 250px;
   }
 }
 
