@@ -147,6 +147,7 @@ img {
 
 .aeroai{
   color: #e3035d;
+  text-decoration: underline;
 }
 
 .aerodiscord{
@@ -180,6 +181,19 @@ img {
 
 .discord{
   text-align: center;
+}
+
+.potongan{
+  color: lightgreen;
+}
+
+.awal{
+  color: red;
+}
+
+.download{
+    color: red;
+    margin-bottom: 2rem;
 }
 
 *{
