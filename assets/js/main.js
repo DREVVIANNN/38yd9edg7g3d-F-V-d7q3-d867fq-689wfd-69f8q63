@@ -69,7 +69,7 @@ const sr = ScrollReveal({
     // reset: true, // Animations repeat
 })
 
-sr.reveal(`.perfil, .contact__form`)
+sr.reveal(`.perfil, .contact__form, .banner`)
 sr.reveal(`.info`, {origin: 'left', delay: 800})
 sr.reveal(`.skills`, {origin: 'left', delay: 1000})
 sr.reveal(`.about`, {origin: 'right', delay: 1200})
